@@ -15,6 +15,8 @@ Cópia de segurança pública do website **Renata Rocha — Médica Especialista
 | `historico/origem-manus.bundle` | Histórico Git completo do projeto de origem até ao snapshot arquivado |
 | `RESTAURO.md` | Instruções de restauro local, alojamento e recuperação do histórico |
 | `BACKUP-MANIFEST.json` | Inventário, tamanho e SHA-256 dos ficheiros de backup |
+| `ALOJAMENTO-DOMINIO.md` | Verificação do domínio e instruções para GitHub Pages, ainda sem ativação |
+| `.github/workflows/pages.yml` | Workflow manual preparado para publicar apenas a pasta `public/` |
 
 ## Abrir o website
 
@@ -47,3 +49,7 @@ python3 tools/update-backup.py
 ```
 
 Este comando atualiza o SHA-256 de cada ficheiro e rejeita ficheiros de credenciais comuns. Não substitui a revisão de segurança: a pasta `.gitignore` evita ficheiros transitórios, mas é sempre necessário rever os ficheiros a publicar.
+
+## Preparação de alojamento e domínio
+
+Consultar [ALOJAMENTO-DOMINIO.md](ALOJAMENTO-DOMINIO.md) para os requisitos de associação de `www.renatarochamedical.com`. Foi preparado um workflow manual que publica somente `Projeto Renata Rocha Medical/public/`, sem mover os ficheiros ou expor o histórico como website. Guardar esta preparação não ativa Pages, não executa a publicação e não altera DNS. A ativação e a publicação aguardam aprovação.

@@ -1,0 +1,55 @@
+name: Publicar website Renata Rocha
+
+# Publicação apenas mediante execução manual autorizada.
+# Este ficheiro, por si só, não ativa o GitHub Pages nem altera DNS.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Validar e preparar website estático
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v6
+      - name: Validar interações
+        run: node "Projeto Renata Rocha Medical/tests/interactions.cjs"
+      - name: Validar estrutura e recursos locais
+        shell: bash
+        run: |
+          python3 -m http.server 3001 --bind 127.0.0.1 --directory "Projeto Renata Rocha Medical/public" > /tmp/renata-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:3001/ > /dev/null; then break; fi
+            sleep 1
+          done
+          TEST_BASE_URL=http://127.0.0.1:3001 python3 "Projeto Renata Rocha Medical/tests/structure.py"
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Preparar apenas os ficheiros do website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "Projeto Renata Rocha Medical/public"
+
+  deploy:
+    name: Publicar no GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar website
+        id: deployment
+        uses: actions/deploy-pages@v4

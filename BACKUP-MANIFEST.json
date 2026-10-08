@@ -1,6 +1,6 @@
 {
   "project": "Renata Rocha — Médica Especialista em Anestesiologia",
-  "created_at_utc": "2026-10-08T09:01:15.188928+00:00",
+  "created_at_utc": "2026-10-08T19:42:32.354260+00:00",
   "source_commit": "9bcb0ecde30e99f2a763e40163556b43a879b0b8",
   "source_history": "historico/origem-manus.bundle",
   "website_directory": "Projeto Renata Rocha Medical/public",
@@ -8,9 +8,19 @@
   "notes": "Imagem e fontes locais; sem base de dados, dados de pacientes ou credenciais. O source_commit identifica o histórico original, não as alterações futuras.",
   "files": [
     {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1710,
+      "sha256": "46f175489807b6f4d766e2daa5aab3590f6bcc8c41c15a8b3d7c228f27218bee"
+    },
+    {
       "path": ".gitignore",
       "bytes": 182,
       "sha256": "b35b37bc00da271bc703e2bac012803b901ab43980c4f930ade3b65fa2d98b6c"
+    },
+    {
+      "path": "ALOJAMENTO-DOMINIO.md",
+      "bytes": 6397,
+      "sha256": "ac464a80747e8778c7ce6442b9cc5124177d29e34d58fc5a89b98eabc24372b0"
     },
     {
       "path": "Projeto Renata Rocha Medical/README.md",
@@ -104,8 +114,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3415,
-      "sha256": "ddac2ff5c3d30b2f7d02424e055d9ba285c3f9e06d219c361bcc3bf5e1033f96"
+      "bytes": 4090,
+      "sha256": "03147bec8288086daae265802f9c7130c6f9e04541b1032020616b13df587128"
     },
     {
       "path": "RESTAURO.md",
