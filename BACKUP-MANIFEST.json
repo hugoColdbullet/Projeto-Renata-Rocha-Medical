@@ -1,6 +1,6 @@
 {
   "project": "Renata Rocha — Médica Especialista em Anestesiologia",
-  "created_at_utc": "2026-10-08T19:42:32.354260+00:00",
+  "created_at_utc": "2026-10-08T19:48:03.519508+00:00",
   "source_commit": "9bcb0ecde30e99f2a763e40163556b43a879b0b8",
   "source_history": "historico/origem-manus.bundle",
   "website_directory": "Projeto Renata Rocha Medical/public",
@@ -19,8 +19,13 @@
     },
     {
       "path": "ALOJAMENTO-DOMINIO.md",
-      "bytes": 6397,
-      "sha256": "ac464a80747e8778c7ce6442b9cc5124177d29e34d58fc5a89b98eabc24372b0"
+      "bytes": 7016,
+      "sha256": "f36f72727ad8c927113fd208feb4c8088163b51e5a1e06032385c19aa565b9a7"
+    },
+    {
+      "path": "PAINEL-GESTAO.md",
+      "bytes": 7262,
+      "sha256": "5387afdf0615266ed145f42b0f130422dab04097b6666bb7ecad3b5d2bc68425"
     },
     {
       "path": "Projeto Renata Rocha Medical/README.md",
@@ -114,8 +119,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4090,
-      "sha256": "03147bec8288086daae265802f9c7130c6f9e04541b1032020616b13df587128"
+      "bytes": 4764,
+      "sha256": "3ea0035ac57371beead0988c1a20b2ad8de38890729c54596369095fb5e90c1b"
     },
     {
       "path": "RESTAURO.md",

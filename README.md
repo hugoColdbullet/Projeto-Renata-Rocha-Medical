@@ -2,6 +2,10 @@
 
 Cópia de segurança pública do website **Renata Rocha — Médica Especialista em Anestesiologia**, criada a pedido do titular da conta GitHub. A pasta principal chama-se **`Projeto Renata Rocha Medical`**.
 
+## Gerir o website
+
+Abrir o **[Painel de gestão](PAINEL-GESTAO.md)** para editar textos, fotografias, contactos e estilos com a conta GitHub existente. Inclui atalhos para o editor, histórico, publicação manual e recuperação. Não cria uma nova conta nem uma aplicação CMS.
+
 ## Conteúdo
 
 | Local | Conteúdo |
@@ -17,6 +21,7 @@ Cópia de segurança pública do website **Renata Rocha — Médica Especialista
 | `BACKUP-MANIFEST.json` | Inventário, tamanho e SHA-256 dos ficheiros de backup |
 | `ALOJAMENTO-DOMINIO.md` | Verificação do domínio e instruções para GitHub Pages, ainda sem ativação |
 | `.github/workflows/pages.yml` | Workflow manual preparado para publicar apenas a pasta `public/` |
+| `PAINEL-GESTAO.md` | Atalhos de edição, contactos, imagens, versões e publicação pelo GitHub existente |
 
 ## Abrir o website
 
@@ -52,4 +57,4 @@ Este comando atualiza o SHA-256 de cada ficheiro e rejeita ficheiros de credenci
 
 ## Preparação de alojamento e domínio
 
-Consultar [ALOJAMENTO-DOMINIO.md](ALOJAMENTO-DOMINIO.md) para os requisitos de associação de `www.renatarochamedical.com`. Foi preparado um workflow manual que publica somente `Projeto Renata Rocha Medical/public/`, sem mover os ficheiros ou expor o histórico como website. Guardar esta preparação não ativa Pages, não executa a publicação e não altera DNS. A ativação e a publicação aguardam aprovação.
+Consultar [ALOJAMENTO-DOMINIO.md](ALOJAMENTO-DOMINIO.md) para os requisitos de associação de `www.renatarochamedical.com`. Foi preparado um workflow manual que publica somente `Projeto Renata Rocha Medical/public/`, sem mover os ficheiros ou expor o histórico como website. A publicação da versão atual foi aprovada pelo utilizador, mas a ativação pela integração foi bloqueada com HTTP 403. É necessário o titular selecionar **GitHub Actions** em [Settings → Pages](https://github.com/hugoColdbullet/Projeto-Renata-Rocha-Medical/settings/pages). Não houve publicação nem alterações DNS. O painel do fornecedor do domínio ainda tem de ser identificado para a associação final.

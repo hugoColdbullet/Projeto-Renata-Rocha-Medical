@@ -6,6 +6,8 @@
 
 O repositório é público: https://github.com/hugoColdbullet/Projeto-Renata-Rocha-Medical. A conta ligada tem administração do repositório e GitHub Actions está ativo. GitHub Pages ainda não está ativo. Não foi efetuada qualquer alteração DNS ou publicação durante esta verificação.
 
+**Atualização:** o utilizador aprovou a publicação da versão atual. A tentativa de ativar Pages pela integração devolveu HTTP 403 — `Resource not accessible by integration`. A consulta posterior não encontrou um site ativo. O titular deve abrir [Settings → Pages](https://github.com/hugoColdbullet/Projeto-Renata-Rocha-Medical/settings/pages), selecionar **GitHub Actions** como Source e guardar, se solicitado. Não se tentou contornar a limitação por outro canal. A gestão de conteúdo é feita com a conta GitHub existente através de [PAINEL-GESTAO.md](PAINEL-GESTAO.md); este painel não gere DNS.
+
 | Elemento | Observação |
 | --- | --- |
 | Registador público (RDAP) | Global Domain Group LLC; o fornecedor contratado pode ser um revendedor |
