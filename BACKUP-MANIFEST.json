@@ -1,0 +1,126 @@
+{
+  "project": "Renata Rocha — Médica Especialista em Anestesiologia",
+  "created_at_utc": "2026-10-08T09:01:15.188928+00:00",
+  "source_commit": "9bcb0ecde30e99f2a763e40163556b43a879b0b8",
+  "source_history": "historico/origem-manus.bundle",
+  "website_directory": "Projeto Renata Rocha Medical/public",
+  "required_services": [],
+  "notes": "Imagem e fontes locais; sem base de dados, dados de pacientes ou credenciais. O source_commit identifica o histórico original, não as alterações futuras.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 182,
+      "sha256": "b35b37bc00da271bc703e2bac012803b901ab43980c4f930ade3b65fa2d98b6c"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/README.md",
+      "bytes": 5099,
+      "sha256": "acf5d7442890256a19cc3a33a12a1b10e27c8891e93bc24f847bbe6f4f39334f"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/TODO.md",
+      "bytes": 2040,
+      "sha256": "188bb1206ec6a7afb02b51d45f7c60007102e144116f546f1f3b39f36d57dcc1"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/app.config.ts",
+      "bytes": 177,
+      "sha256": "5edd4038d664a0b859c89a11f6e4e47397621a734f1891abfff8c39755c43841"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/plan.md",
+      "bytes": 4508,
+      "sha256": "ae74043da3f214f2c10660f850bc1d45c435945f3bb2d66b01a6f1b202a957e3"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/Cormorant-Garamond-OFL.txt",
+      "bytes": 4386,
+      "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/Manrope-OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/clinical-hero.webp",
+      "bytes": 168274,
+      "sha256": "d3b1f8060b74765135aa90676aea9b16a141445456cad2bd9a8e5f9f1e456b1c"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/cormorant-italic-latin.woff2",
+      "bytes": 61536,
+      "sha256": "e811989d1a09c489d683881e282cc22d5723a7b40372433d67685827d4587c4d"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/cormorant-latin.woff2",
+      "bytes": 61128,
+      "sha256": "55a6257ebc0c7949a5daecd21ab343083b02b30da0f213cb629d92cbd5267aad"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/favicon.svg",
+      "bytes": 296,
+      "sha256": "6c43ea91e14433e5332a6989351ce296d3f2ff3ed891a3ce3b681f2b6620f7a5"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/main.js",
+      "bytes": 5471,
+      "sha256": "ddade409b150076b952ad70701cb2e9720f532fe2ad6340a7aa74015af9b1e21"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/manrope-latin.woff2",
+      "bytes": 29112,
+      "sha256": "3d144e227b7b20cddec92751c4a399dee9247626e864c93bb05ab177887e3415"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/site-config.js",
+      "bytes": 408,
+      "sha256": "3cf9905b139894075589a05953047985d3963319f37e3382a25297f4d4086085"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/assets/styles.css",
+      "bytes": 23001,
+      "sha256": "381e1bb080a2a32c8071cdad2f7b2976140f8798ffb1ecab9158f87ea8aa5fc1"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/index.html",
+      "bytes": 19318,
+      "sha256": "fec12b528fcccd6758347f45b5419b07fdf956ebfc67101ae06563f6d6e85207"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/manus-routes.json",
+      "bytes": 92,
+      "sha256": "6ca5ee07b8a337779cece124eb16d4ea688a1cd46ef577bb77756a116dc97cbc"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/tests/interactions.cjs",
+      "bytes": 5445,
+      "sha256": "280c1eabfd51ff94b60ef1c5ecb2605727ad3112e974b374155b00605481c02c"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/tests/structure.py",
+      "bytes": 2965,
+      "sha256": "73537ea9e8ddf7eefd0df9347a6caca72cba70c532700ac9342e3122433f53e0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3415,
+      "sha256": "ddac2ff5c3d30b2f7d02424e055d9ba285c3f9e06d219c361bcc3bf5e1033f96"
+    },
+    {
+      "path": "RESTAURO.md",
+      "bytes": 4020,
+      "sha256": "ff6b50be10e85cf4505ce5c318ddc57be460e67ea075f0ec8e46ad4cc367f9a0"
+    },
+    {
+      "path": "historico/origem-manus.bundle",
+      "bytes": 178130,
+      "sha256": "5a2d265bd052da41486731a5a570aa27fd7250a12f6c90d67392fd5a966e28b9"
+    },
+    {
+      "path": "tools/update-backup.py",
+      "bytes": 1752,
+      "sha256": "86fd35eb17bf93842faa1ed0f71da2c3bfe518e300abba6ff0c9ee38d8215ec9"
+    }
+  ]
+}
