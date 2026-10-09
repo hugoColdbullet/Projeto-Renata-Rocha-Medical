@@ -1,6 +1,6 @@
 {
   "project": "Renata Rocha — Médica Especialista em Anestesiologia",
-  "created_at_utc": "2026-10-08T19:48:03.519508+00:00",
+  "created_at_utc": "2026-10-09T05:58:02.464439+00:00",
   "source_commit": "9bcb0ecde30e99f2a763e40163556b43a879b0b8",
   "source_history": "historico/origem-manus.bundle",
   "website_directory": "Projeto Renata Rocha Medical/public",
@@ -28,6 +28,11 @@
       "sha256": "5387afdf0615266ed145f42b0f130422dab04097b6666bb7ecad3b5d2bc68425"
     },
     {
+      "path": "Projeto Renata Rocha Medical/ERROS.md",
+      "bytes": 3389,
+      "sha256": "0fadb0a122f942c83123cd8ca8b16f329f1749d2cae8772d8f3d83bcff4877d4"
+    },
+    {
       "path": "Projeto Renata Rocha Medical/README.md",
       "bytes": 5099,
       "sha256": "acf5d7442890256a19cc3a33a12a1b10e27c8891e93bc24f847bbe6f4f39334f"
@@ -43,9 +48,24 @@
       "sha256": "5edd4038d664a0b859c89a11f6e4e47397621a734f1891abfff8c39755c43841"
     },
     {
+      "path": "Projeto Renata Rocha Medical/dev-server.py",
+      "bytes": 1900,
+      "sha256": "434541d25b337350c6f775f5c789c704bdf963a5d832f59793df4a6917289251"
+    },
+    {
       "path": "Projeto Renata Rocha Medical/plan.md",
       "bytes": 4508,
       "sha256": "ae74043da3f214f2c10660f850bc1d45c435945f3bb2d66b01a6f1b202a957e3"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/400.html",
+      "bytes": 10103,
+      "sha256": "0d2410e0105f6a9abea06ff64a4848aa6494382c2357d0e4cdaa57bdadcdca4a"
+    },
+    {
+      "path": "Projeto Renata Rocha Medical/public/404.html",
+      "bytes": 10077,
+      "sha256": "d5b597422fb20981fe039413f6d2a7fc357a86763a81c9ee362be39eba599090"
     },
     {
       "path": "Projeto Renata Rocha Medical/public/assets/Cormorant-Garamond-OFL.txt",
@@ -108,6 +128,11 @@
       "sha256": "6ca5ee07b8a337779cece124eb16d4ea688a1cd46ef577bb77756a116dc97cbc"
     },
     {
+      "path": "Projeto Renata Rocha Medical/tests/error-pages.py",
+      "bytes": 4593,
+      "sha256": "b47da6ab1fe34a09a5ef0e769edfb188d4566b5b3423d7b4c278071fe7c05a84"
+    },
+    {
       "path": "Projeto Renata Rocha Medical/tests/interactions.cjs",
       "bytes": 5445,
       "sha256": "280c1eabfd51ff94b60ef1c5ecb2605727ad3112e974b374155b00605481c02c"
@@ -119,8 +144,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4764,
-      "sha256": "3ea0035ac57371beead0988c1a20b2ad8de38890729c54596369095fb5e90c1b"
+      "bytes": 5722,
+      "sha256": "f667afb8b0544715f6b6e3172cdaa0908015105552b7b6d331f2b9a086b48ee7"
     },
     {
       "path": "RESTAURO.md",

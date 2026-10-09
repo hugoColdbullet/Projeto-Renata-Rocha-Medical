@@ -58,3 +58,16 @@ Este comando atualiza o SHA-256 de cada ficheiro e rejeita ficheiros de credenci
 ## Preparação de alojamento e domínio
 
 Consultar [ALOJAMENTO-DOMINIO.md](ALOJAMENTO-DOMINIO.md) para os requisitos de associação de `www.renatarochamedical.com`. Foi preparado um workflow manual que publica somente `Projeto Renata Rocha Medical/public/`, sem mover os ficheiros ou expor o histórico como website. A publicação da versão atual foi aprovada pelo utilizador, mas a ativação pela integração foi bloqueada com HTTP 403. É necessário o titular selecionar **GitHub Actions** em [Settings → Pages](https://github.com/hugoColdbullet/Projeto-Renata-Rocha-Medical/settings/pages). Não houve publicação nem alterações DNS. O painel do fornecedor do domínio ainda tem de ser identificado para a associação final.
+
+## Páginas de erro personalizadas
+
+A pasta pública contém `400.html` e `404.html`, ambas com a identidade médica da Dra. Renata Rocha e navegação para a página inicial. Consultar [ERROS.md](Projeto%20Renata%20Rocha%20Medical/ERROS.md) para os testes e diferenças de alojamento.
+
+Para testar respostas HTTP de erro localmente:
+
+```bash
+python3 "Projeto Renata Rocha Medical/dev-server.py" --port 3000 --bind 127.0.0.1
+python3 "Projeto Renata Rocha Medical/tests/error-pages.py"
+```
+
+A página 404 será utilizada automaticamente por GitHub Pages depois de uma publicação bem-sucedida. A página 400 é acessível por URL; a personalização automática de HTTP 400 só foi implementada no servidor de pré-visualização incluído. Guardar os ficheiros no repositório não executa o workflow manual e não configura DNS. A publicação definitiva do projeto Manus solicitada em 9 de outubro foi cancelada após recusa do cartão de confirmação.
